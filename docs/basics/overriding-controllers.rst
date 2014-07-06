@@ -40,7 +40,7 @@ To let Yii2-user know about your controller you should add it to controller map 
         'modules' => [
             ...
             'user' => [
-                'class' => 'dektrium\user\Module',
+                'class' => 'dektrium\user\ModuleManager',
                 'controllerMap' => [
                     'admin' => 'app\controller\AdminController'
                 ],
