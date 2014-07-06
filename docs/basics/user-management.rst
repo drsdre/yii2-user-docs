@@ -13,7 +13,7 @@ To start using user management interface you have to add your username to admini
         'modules' => [
             ...
             'user' => [
-                'class' => 'dektrium\user\Module',
+                'class' => 'dektrium\user\ModuleManager',
                 'admins' => ['your-username-goes-here']
             ],
             ...
