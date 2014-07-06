@@ -14,7 +14,7 @@ default model manager configuration:
         'modules' => [
             ...
             'user' => [
-                'class' => 'dektrium\user\Module',
+                'class' => 'dektrium\user\ModuleManager',
                 'components' => [
                     'manager' => [
                         // Active record classes
